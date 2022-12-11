@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind components;
+@tailwind utilities;
+.font-space{
+  font-family: 'Space Grotesk'
+}
+@font-face {
+  font-family: 'Apercu-Bold';
+  src:  url('fonts/Apercu-Bold.woff2') format('woff2'),
+        url('fonts/Apercu-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Apercu-Bold-Italic';
+  src:  url('fonts/Apercu-BoldItalic.woff2') format('woff2'),
+        url('fonts/Apercu-BoldItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Apercu-Italic';
+  src:  url('fonts/Apercu-Italic.woff2') format('woff2'),
+        url('fonts/Apercu-Italic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Apercu-Light';
+  src:  url('fonts/Apercu-Light.woff2') format('woff2'),
+        url('fonts/Apercu-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Apercu-Light-Italic';
+  src:  url('fonts/Apercu-LightItalic.woff2') format('woff2'),
+        url('fonts/Apercu-LightItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Apercu-Medium';
+  src:  url('fonts/Apercu-Medium.woff2') format('woff2'),
+        url('fonts/Apercu-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Apercu-Medium-Italic';
+  src:  url('fonts/Apercu-MediumItalic.woff2') format('woff2'),
+        url('fonts/Apercu-MediumItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Apercu-Mono-Bold';
+  src:  url('fonts/apercu-mono-bold.woff2') format('woff2'),
+        url('fonts/apercu-mono-bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Apercu-Regular';
+  src:  url('fonts/Apercu-Regular.woff2') format('woff2'),
+        url('fonts/Apercu-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Avenir-Medium';
+  src:  url('fonts/Avenir-Medium.woff2') format('woff2'),
+}
+
+
+
+.font-apercu{
+  font-family:"Apercu-Regular"
+}
+
+.font-poppins{
+  font-family:"Poppins"
+}
+
+.font-avenir{
+  font-family: "Avenir-Medium";
+}
+.vertical-text{
+writing-mode: vertical-lr;
+text-orientation: upright;
+}
+
+
+
+*{
+  margin:0;
+
+}
+html,body{margin:0;}
