@@ -1,6 +1,6 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
-import { Downs, Sphere, Xarrows } from '~/integrations/react/react';
+import { Downs, Sphere } from '~/integrations/react/react';
 export default component$(() => {
   return (
     <section class="md:px-10 px-4 sm:px-6 lg:px-20 py-8 mx-auto">

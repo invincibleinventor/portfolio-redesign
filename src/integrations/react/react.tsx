@@ -18,6 +18,7 @@ import Xarrow from "react-xarrows";
 export const Xarrows = qwikify$(Xarrow)
 
 import { ReactNode, useEffect, useRef, useState } from 'react'
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { TagSphere } from 'react-tag-sphere'
 export function shuffleArray(array: Array<any>) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -72,6 +73,7 @@ const textTags = [
   'GLSL',
 ].map((tag) => <p className='text-sm lg:text-lg'>{tag}</p>)
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const tags = shuffleArray(imageTags.concat(textTags))
 
 export const SkillsTagSphere: React.FC = () => {
